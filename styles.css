@@ -60,7 +60,11 @@ header {
   top: 0;
   left: 0;
   z-index: 1;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(121, 120, 120, 0.5),
+    transparent
+  );
 }
 
 .nav {
@@ -116,6 +120,12 @@ header {
   transition: opacity 0.5s;
 }
 
+.logo {
+  font-size: 40px;
+  color: #16972b;
+  text-transform: uppercase;
+  font-family: var(--main-font);
+}
 .open .fa-times {
   display: block;
 }
@@ -139,7 +149,7 @@ header {
 
 .nav-link {
   display: block;
-  color: white;
+  color: rgb(58, 58, 40);
   text-transform: uppercase;
   font-size: 1.6rem;
   letter-spacing: 2px;
@@ -188,6 +198,10 @@ header {
   letter-spacing: 0.5rem;
   margin-right: -0.5rem;
   animation: scale 0.5s forwards;
+}
+
+.animate-bottom .headline {
+  color: white;
 }
 
 .separator {
@@ -369,7 +383,7 @@ header {
 
 /* The perfect blend */
 .perfect-blend {
-  background: url(./images/perfect-blend.jpg) center no-repeat;
+  background: url(./img/blend\ 2.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -506,7 +520,8 @@ footer {
   }
 
   .nav-link {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
+    font-weight: bold;
   }
 
   .active {
@@ -518,7 +533,7 @@ footer {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: white;
+    background-color: var(--secondary-font-color);
     left: 0;
     bottom: -3px;
   }
@@ -646,4 +661,8 @@ footer {
     opacity: 0;
     transform: translateY(-1rem);
   }
+}
+
+.panel {
+  margin-top: 80px;
 }
