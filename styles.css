@@ -666,3 +666,16 @@ footer {
 .panel {
   margin-top: 80px;
 }
+
+/* menu */
+
+.menu-contain {
+  width: 100%;
+  max-width: 100rem;
+}
+.menu-item {
+  display: flex;
+  border: black 2px solid;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
