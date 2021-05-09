@@ -667,15 +667,17 @@ footer {
   margin-top: 80px;
 }
 
-/* menu */
-
-.menu-contain {
-  width: 100%;
-  max-width: 100rem;
+/* Menu.html */
+.menu {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
 }
+.menu ul {
+  list-style: none;
+}
+
 .menu-item {
-  display: flex;
-  border: black 2px solid;
-  padding-bottom: 5px;
+  border: 2px solid green;
   margin-bottom: 5px;
 }
