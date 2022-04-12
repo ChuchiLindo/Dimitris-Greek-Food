@@ -149,7 +149,9 @@ header {
 
 .nav-link {
   display: block;
-  color: rgb(58, 58, 40);
+  /* color: rgb(58, 58, 40); */
+  /* color: rgb(241, 241, 241); */
+  color: #17972c;
   text-transform: uppercase;
   font-size: 1.6rem;
   letter-spacing: 2px;
@@ -517,6 +519,7 @@ footer {
 
   .nav-item:last-child {
     margin-right: 0;
+
   }
 
   .nav-link {
@@ -668,16 +671,33 @@ footer {
 }
 
 /* Menu.html */
-.menu {
-  width: 70%;
-  margin: auto;
-  margin-top: 50px;
-}
-.menu ul {
-  list-style: none;
+
+#menu-body{
+ background: url(./img/wood-2142217_1280.jpg) center no-repeat;
+
+ background-color: blueviolet;
 }
 
-.menu-item {
-  border: 2px solid green;
-  margin-bottom: 5px;
+.menu {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 50px;
+  background-color: rgb(247, 248, 170);
+}
+
+.menu-list{
+  margin:auto;
+}
+
+ ul, li {
+  list-style: none;
+  width: 50%;
+ margin: auto;
+}
+
+h2{
+  color: green;
+  padding-bottom: 2rem;
+
 }
