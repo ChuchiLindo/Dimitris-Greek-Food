@@ -12,6 +12,9 @@ menuToggler.addEventListener("click", function () {
 
 // Scroll reveal
 window.sr = ScrollReveal();
+// Verify that you have initialized the ScrollReveal library before using it. 
+ const sr = ScrollReveal();
+
 
 sr.reveal(".animate-left", {
   origin: "left",

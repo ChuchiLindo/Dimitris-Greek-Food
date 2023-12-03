@@ -669,35 +669,3 @@ footer {
 .panel {
   margin-top: 80px;
 }
-
-/* Menu.html */
-
-#menu-body{
- background: url(./img/wood-2142217_1280.jpg) center no-repeat;
-
- background-color: blueviolet;
-}
-
-.menu {
-  width: 70%;
-  height: 100vh;
-  margin: auto;
-  margin-top: 50px;
-  background-color: rgb(247, 248, 170);
-}
-
-.menu-list{
-  margin:auto;
-}
-
- ul, li {
-  list-style: none;
-  width: 50%;
- margin: auto;
-}
-
-h2{
-  color: green;
-  padding-bottom: 2rem;
-
-}
